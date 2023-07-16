@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Centaur";
+  src: url("/fonts/centaur/centaur.ttf") format("truetype");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Centaur", serif;
+}
+.intro {
+  background: linear-gradient(
+    180deg,
+    rgba(76, 98, 175, 0.86) 5.52%,
+    rgba(94, 90, 163, 0.81) 41.46%,
+    rgba(152, 19, 64, 0.54) 86.58%,
+    rgba(218, 30, 75, 0.47) 100%
+  );
+  padding: 80px 355px;
+  border-radius: 0px 0px 70px 70px;
+  color: white;
+  text-align: center;
+}
+.intro .title {
+  text-transform: uppercase;
+  margin: 20px 0 50px 0;
+  font-weight: 400;
+  font-size: 128px;
+}
+.intro .desc {
+  padding: 50px 0;
+  font-size: 40px;
+}
+.container {
+  margin: 50px 0;
+  padding: 0 50px;
+}
+.container .profile {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.container .content {
+  padding: 50px 0;
+}
+.container .content .desc_1 {
+  font-size: 40px;
+  max-width: 800px;
+  margin: 30px 0;
+}
+.container .content .desc_2 {
+  font-size: 40px;
+  max-width: 800px;
+}
+.container .profile .content .name {
+  font-size: 64px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.container .profile .images img {
+  width: 430px;
+  height: 500px;
+  border-radius: 30px;
+}
+#info-block {
+  padding:0 38px;
+  margin-top: 20px;
+}
+#info-block section {
+  stroke-width: 1px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+}
+#audit-trail {
+  padding: 10px 20px;
+}
+#audit-trail img{
+margin: 5px;
+  }
+.file-marker > div {
+  padding: 0 3px;
+  margin-top: -2em;
+}
+.box-title {
+  background: white none repeat scroll 0 0;
+  display: inline-block;
+  padding: 0 10px;
+  margin-left: 1em;
+  font-size: 64px;
+}
+.tool {
+  padding: 50px 185px 0 185px;
+  display: flex;
+  justify-content: center;
+}
+.tool .left {
+  width: 43%;
+}
+.tool .right {
+  width: 55%;
+}
+.right_tool{
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .my_work{
+    padding: 80px 197px;
+}
+.work_tool{
+    text-align: center;
+    margin: 50px 0;
+}
+.work_tool img{
+    margin: 50px!important;
+}
+.container .experience{
+    padding: 80px 197px;
+}
+.exer_tool{
+    font-size: 48px!important;
+    padding: 50px 30px;
+}
+.exer_tool .title{
+   font-weight: 700;
+}
+.exer_tool .list ul {
+    padding-left: 50px;
+}
+.footer{
+display: flex;
+justify-content: center;
+gap: 100px;
+    padding: 200px 0;
+    border-radius: 70px 70px 0px 0px;
+background: linear-gradient(180deg, rgba(76, 98, 175, 0.86) 5.52%, rgba(94, 90, 163, 0.81) 41.46%, rgba(152, 19, 64, 0.54) 86.58%, rgba(218, 30, 75, 0.47) 100%);
+}
+.footer button{
+    border: none;
+    text-transform: capitalize;
+    width: 500px;
+height: 115px;
+border-radius: 70px;
+background: #FFFCFC;
+font-size: 48px;
+}
+.footer button:hover{
+    background: gray;
+    color: white;
+    cursor: pointer;
+    transition: 1s ;
+}
